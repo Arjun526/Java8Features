@@ -18,6 +18,7 @@ public class DateTimeExample {
 		System.out.println(start);
 		Thread.sleep(1000);
 		Instant end = Instant.now();
+		System.out.println("Demonstarting Duration  Class Usage");
 		Duration duration = Duration.between(start, end);
 		System.out.println(duration.getSeconds());
 		
@@ -26,7 +27,7 @@ public class DateTimeExample {
 		
 		LocalDate satvikBD = LocalDate.of(2014,Month.MARCH,12);
 		System.out.println(date);
-		
+		System.out.println("Demonstarting  Period Class Usage");
 		Period period = Period.between(satvikBD, date);
 		
 		System.out.println("Satvik is " + period.getYears() + " years, " + period.getMonths() + "months, " + period.getDays() + " days old");
