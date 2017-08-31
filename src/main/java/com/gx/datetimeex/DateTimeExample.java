@@ -34,7 +34,7 @@ public class DateTimeExample {
 		System.out.println("Satvik is " + satvikBD.until(date,ChronoUnit.MONTHS) + " months old");
 		
 		//Date Adjuster
-		
+		System.out.println("Demonstarting  LocalDate Class Usage");
 		LocalDate today = LocalDate.now();
 		LocalDate nextSunday = today.with(TemporalAdjusters.next(DayOfWeek.SUNDAY));
 		System.out.println("Next Sunday is " + nextSunday);
